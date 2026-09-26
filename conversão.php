@@ -33,9 +33,9 @@
 
         echo "<p>Seus "
             . numfmt_format_currency($padrao, $real, "BRL")
-            . " equivalem a<strong>"
+            . " equivalem a <strong>"
             . numfmt_format_currency($padrao, $dolar, "USD")
-            . "</strong></p>";
+            . "  dólares </strong></p>";
 
         ?>
 
